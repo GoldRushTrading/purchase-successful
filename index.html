@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Purchase Successful</title>
+  <style>
+    /* Grundlegende Formatierung */
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      color: #fff;
+    }
+    /* Hintergrund: logo.png, stark geblurrt */
+    .bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('logo.png') no-repeat center center;
+      background-size: cover;
+      filter: blur(20px);
+      z-index: -1;
+    }
+    /* Content in der Mitte */
+    .content {
+      position: relative;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+    .content h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+    .content p {
+      font-size: 1.2em;
+      margin: 0.5em 0;
+    }
+    /* Button mit abgerundeten Ecken */
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 1em 0;
+      border: none;
+      border-radius: 5px;
+      background-color: #7289da;
+      color: #fff;
+      font-size: 1em;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #5b6eae;
+    }
+    /* Kleiner Hinweistext */
+    .small-text {
+      font-size: 0.8em;
+    }
+    .small-text a {
+      color: #7289da;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- Hintergrundbild -->
+  <div class="bg"></div>
+  
+  <!-- Inhalt der Seite -->
+  <div class="content">
+    <h1>Purchase Successful</h1>
+    <p>You successfully purchased the custom branding bot. Please make sure to open a "Contact Staff" ticket in Gold Rush Trading now.</p>
+    <a class="btn" href="https://discord.com/channels/1310977344076251176/1311033788473671690" target="_blank">Go to Ticket</a>
+    <p class="small-text">The button does not take you to the ticket system? Make sure to <a href="https://discord.gg/avHeJcG98r" target="_blank">Join the server</a>!</p>
+  </div>
+</body>
+</html>
